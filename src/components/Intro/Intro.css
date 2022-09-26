@@ -1,6 +1,6 @@
 .Intro {
   display: flex;
-  height: 77vh;
+  /* height: 77vh; */
   margin-top: 6rem;
 }
 
@@ -57,18 +57,22 @@
   position: absolute;
   z-index: 1;
 }
+
+/* girl illustration*/
 .i-right > :nth-child(1) {
-  transform: scale(0.69);
+  transform: scale(0.65);
   left: -15%;
   top: -9%;
 }
+/* emoji - glasses */
 .i-right > :nth-child(2) {
   top: -4.6rem;
-  transform: scale(0.67);
+  transform: scale(0.4);
   left: -3rem;
 }
+/* floating div - web developer */
 .i-right > :nth-child(3) {
-  transform: scale(1.4);
+  transform: scale(0.62);
   left: 28%;
 }
 .i-right > :nth-child(4) {

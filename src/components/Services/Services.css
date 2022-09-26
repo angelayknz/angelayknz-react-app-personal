@@ -1,11 +1,7 @@
 .services {
-  padding: 0 3rem 0 3rem;
   display: flex;
-  height: 30rem;
-  margin-bottom: 8rem;
-  margin-top: 9rem;
-  margin-bottom: 13rem;
-  /* scroll view */
+  margin-top: 3rem;
+  margin-bottom: 32rem;
   padding-top: 3rem;
 }
 /* left side */
@@ -60,7 +56,7 @@
     margin-top: 0;
     flex-direction: column;
     gap: 5rem;
-    height: 66rem;
+    height: 44rem;
     padding: 0;
   }
 
