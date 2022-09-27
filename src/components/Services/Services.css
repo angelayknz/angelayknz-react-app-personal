@@ -1,7 +1,7 @@
 .services {
   display: flex;
   margin-top: 3rem;
-  margin-bottom: 32rem;
+  margin-bottom: 22rem;
   padding-top: 3rem;
 }
 /* left side */
@@ -42,9 +42,9 @@
 
 /* blur */
 .s-blur2 {
-  left: 14rem;
-  top: 8rem;
-}
+  left: -15rem;
+  top: 29rem;
+} 
 
 .s-blur1 {
   top: 13rem;
@@ -53,17 +53,19 @@
 
 @media screen and (max-width: 480px) {
   .services {
+    transform: scale(0.8);
     margin-top: 0;
     flex-direction: column;
     gap: 5rem;
-    height: 44rem;
+    height: 29rem;
     padding: 0;
+    margin-bottom: 37rem;
   }
 
   .cards {
     display: flex;
     flex-direction: column;
-    gap: 17rem;
+    gap: 19rem;
   }
   .cards > * {
     position: static;

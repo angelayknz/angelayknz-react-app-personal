@@ -41,6 +41,10 @@ const Works = () => {
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}
           ></div>
+           <div
+          className="blur w-blur2"
+          style={{ background: "var(--purple)" }}
+        ></div>
         </div>
 
         {/* right side */}

@@ -100,18 +100,32 @@
 
 @media screen and (max-width: 480px) {
   .Intro {
+    transform: scale(0.8);
     flex-direction: column;
-    gap: 7rem;
-    height: 64rem;
+    gap: 2rem;
+    height: 50rem;
+    margin-bottom: 0;
+    margin-top: 0;
   }
+
+  .i-icons {
+    display: none;
+    /* margin-top: 1rem; */
+    /* justify-content: center; */
+}
+
+.i-left {
+  /* transform: scale(0.8); */
+  margin-bottom: 0px;
+  height: 20vh;
+  /* left: -3rem; */
+}
 
   .i-right {
     transform: scale(0.8);
     left: -3rem;
   }
-  .i-right .blur {
-    /* display: none; */
-  }
+ 
   .floating-div:nth-of-type(1){
     /* display: none; */
     top: -7rem !important;;

@@ -44,6 +44,9 @@
 }
 
 @media screen and (max-width: 480px) {
+  .n-wrapper {
+    margin-bottom: 0;
+  }
   .n-list {
     display: none;
   }

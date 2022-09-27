@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: column;
   height: 42vh;
-  margin-bottom: 10rem;
+  margin-bottom: 22rem;
 }
 /* heading */
 .portfolio span:nth-of-type(1) {
@@ -38,3 +38,49 @@
   border-radius: 19px;
 }
 
+/* blur */
+
+.s-blur1 {
+  top: 51rem;
+  left: 50rem;
+}
+
+.p-blur1, .p-blur3 {
+  display: none;
+}
+
+.p-blur2 {
+  left: 8rem;
+  top: 120rem;
+}
+
+
+@media screen and (max-width: 480px) {
+  .portfolio {
+    transform: scale(0.9);
+    margin-top: 1rem;
+    margin-bottom: 9rem;
+  }
+
+  .s-blur1 {
+    top: 51rem;
+    left: 50rem;
+  }
+
+  .p-blur2 {
+    /* left: 0rem; */
+    /* top: -110em; */
+    display: none;
+  }
+
+  .p-blur1 {
+    display: block;
+    top: -11rem;
+    left: 0rem;
+  }
+
+  .p-blur3 {
+    display: none;
+  }
+
+}

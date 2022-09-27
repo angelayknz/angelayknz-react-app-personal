@@ -1,8 +1,9 @@
 .contact-form{
     padding: 0 3rem 0 3rem;
     display: flex;
-    height: 80vh;
+    height: 60vh;
     margin-top: 4rem;
+    margin-bottom: 12rem;
       /* scroll */
   padding-top: 3rem;
 }
@@ -44,13 +45,27 @@ textarea{
 
 @media screen and (max-width: 480px) {
     .contact-form{
+        transform: scale(0.8);
         padding: 0;
         flex-direction: column;
         gap: 5rem;
-        height: 40rem;
+        height: 29rem;
+        margin-top: 0px;
+        margin-bottom: -100px;
+    }
+
+    .awesome {
+        /* justify-content: center; */
+        align-items: center;
+        gap: 1rem;
+    }
+    .awesome > :nth-child(1) {
+        font-size: 2rem;
+    }
+    .awesome > :nth-child(2) {
+        font-size: 1.6rem;
     }
     .c-right .user{
         width: 16rem;
     }
-
 }   
