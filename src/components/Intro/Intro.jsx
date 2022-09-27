@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-import Vector1 from "../../img/Vector1.png";
-import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
+// import Vector1 from "../../img/Vector1.png";
+// import Vector2 from "../../img/Vector2.png";
+// import boy from "../../img/boy.png";
 import girl from '../../img/girl.svg'
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
@@ -32,7 +32,7 @@ const Intro = () => {
           <span>Angela Yang</span>
           <span>
             Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            and development, producing the Quality work
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -65,7 +65,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatinDiv img={crown} text1="Fullstack" text2="Developer" />
         </motion.div>
 
         {/* floating emoji - thum up */}
@@ -76,10 +76,11 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="UI/UX" text2="Designer" />
         </motion.div>
-
+        {/* purple blur */}
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
+        {/* blue blur */}
         <div
           className="blur"
           style={{
